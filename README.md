@@ -5,7 +5,7 @@ The data and logic your application deals with is represented in C# by classes c
 ## Exploring the code
 
 * `Models\Actor.cs` contains the model that describes what an actor is.
-* `Controllers\ActorController.cs` passes Actor-objects to the views.
+* `Controllers\ActorsController.cs` passes Actor-objects to the views.
 * `Views\Actors\*.cshtml` retrieve information from the model and put them on the page.
 
 If you want to try and implement a model yourself, you can check out the `start`-branch, which is the starting point for this example.
