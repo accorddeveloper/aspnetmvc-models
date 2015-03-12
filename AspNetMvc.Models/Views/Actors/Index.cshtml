@@ -1,0 +1,13 @@
+﻿@* You can access the model by using Model. This property contains the object you passed in the
+action as a parameter to View(). Note that in this case, Model contains an array. *@
+<h1>Actors</h1>
+
+<ul>
+	@* Since Model contains an array, we can access each element in the array using a foreach. The @
+	indicates the start of a bit of C# code. Note that you don't have to specify where the C# code
+	ends, nor do you have to put another @ in front of the closing curly brace. *@
+	@foreach (var actor in Model)
+	{
+		<li>@actor.FirstName @actor.LastName (@actor.Nationality)</li>
+	}
+</ul>
